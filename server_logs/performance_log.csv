@@ -1,0 +1,6 @@
+Timestamp,ServerType,ConcurrentClients,RequestsPerClient,DelayMs,TotalTime,SuccessCount,FailureCount,RequestsPerSecond,MinResponseTime,MaxResponseTime,AvgResponseTime
+2025-05-15 22:12:27,SingleThreaded,10,30,5,33.06,300,0,9.08,201,1190,1078.74
+2025-05-15 22:13:13,MultiThreaded,10,30,5,3.58,300,0,83.75,105,171,112.49
+2025-05-15 22:13:38,ThreadPool,10,30,5,3.63,300,0,82.71,102,173,113.28
+2025-05-15 22:23:08,MultiThreaded,10,30,5,3.71,300,0,80.78,103,194,116.69
+2025-05-15 22:52:10,MultiThreaded,10,30,5,3.89,300,0,77.22,104,286,122.30

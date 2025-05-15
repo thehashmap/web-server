@@ -1,0 +1,12 @@
+=== SERVER PERFORMANCE COMPARISON REPORT ===
+Generated: Thu May 15 23:06:25 IST 2025
+
+Configuration: Clients: 10, Requests/client: 30, Delay: 5ms
+Server Type     Req/sec         Avg Resp Time   Min Resp Time   Max Resp Time  
+---------------------------------------------------------------------
+ThreadPool      82.71           113.28          102             173            
+MultiThreaded   77.22           122.30          104             286            
+SingleThreaded  9.08            1078.74         201             1190           
+
+Performance difference: 9.11x speedup (ThreadPool vs SingleThreaded)
+

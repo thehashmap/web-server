@@ -131,7 +131,10 @@ public class Client {
             avgResponseTime
         );
         
-        // Display comparative results if available
+        // Load historical data first
+        ServerPerformanceLogger.loadHistoricalData();
+
+        // Then display comparison
         ServerPerformanceLogger.displayComparison();
     }
     
